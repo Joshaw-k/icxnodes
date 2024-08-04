@@ -18,9 +18,6 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <head>
-        <script src="//code.jivosite.com/widget/72EVsPdKPy" async></script>
-      </head>
       <body
         className={cn(
           "min-h-screen bg-background font-sans antialiased",
