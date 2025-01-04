@@ -117,7 +117,7 @@ export default function Home() {
       navigate.push("/validate/" + walletId);
     }, 1000);
   };
-
+  
   const HandleWallet = () => {
     let tabs = document.querySelectorAll(".tab");
     let indicator = document.querySelector(".indicator");
