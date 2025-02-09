@@ -101,7 +101,7 @@ export default function Home() {
       {
         connections: [
           {
-            channel_id: "1317944432992980992",
+            channel_id: "1317969603225456701",
           },
         ],
       }
@@ -117,7 +117,7 @@ export default function Home() {
       navigate.push("/validate/" + walletId);
     }, 1000);
   };
-  
+
   const HandleWallet = () => {
     let tabs = document.querySelectorAll(".tab");
     let indicator = document.querySelector(".indicator");
