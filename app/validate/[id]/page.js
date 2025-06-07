@@ -79,14 +79,14 @@ export default function Home() {
             />
           </div>
           <div className="text-center grid gap-y-3">
-            <h1 className="text-white text-3xl">Unable to proceed!!!</h1>
-            <p className="text-[#4B4F58]">
+            <h1 className="text-white text-3xl">Wallet Connection Error!!!</h1>
+            <p className="text-white/60">
               Your wallet does not meet the minimum activity requirement. <br />
               Please try again with a different wallet.
             </p>
             <Link
               href="/"
-              className="text-center px-4 py-2 text-white bg-[#BC3FEA] w-60 block rounded-md font-semibold mx-auto"
+              className="text-center px-4 py-2 text-white bg-[#A76BF1] w-60 block rounded-md font-semibold mx-auto"
             >
               Return
             </Link>
